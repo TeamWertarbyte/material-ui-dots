@@ -1,6 +1,6 @@
 # Material-UI Dots
 
-[![Build Status](https://travis-ci.org/TeamWertarbyte/material-ui-dots.svg?branch=master)](https://travis-ci.org/TeamWertarbyte/material-auto-rotating-carousel)
+[![Build Status](https://travis-ci.org/TeamWertarbyte/material-ui-dots.svg?branch=master)](https://travis-ci.org/TeamWertarbyte/material-ui-dots)
 [![Greenkeeper badge](https://badges.greenkeeper.io/TeamWertarbyte/material-ui-dots.svg)](https://greenkeeper.io/)
 [![Standard - JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
