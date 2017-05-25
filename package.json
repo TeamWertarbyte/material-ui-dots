@@ -1,0 +1,56 @@
+{
+  "name": "material-ui-dots",
+  "version": "1.0.0",
+  "description": "Just some animated dots for pagination.",
+  "main": "lib/Dots.js",
+  "scripts": {
+    "build": "babel src -d lib --ignore spec.js",
+    "prepublish": "rm -r lib && npm run build",
+    "test": "standard && jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TeamWertarbyte/material-ui-dots.git"
+  },
+  "keywords": [
+    "react",
+    "react-component",
+    "material",
+    "pagination",
+    "dots",
+    "animation"
+  ],
+  "author": "Wertarbyte <kontakt@wertarbyte.com> (https://wertarbyte.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TeamWertarbyte/material-ui-dots/issues"
+  },
+  "homepage": "https://github.com/TeamWertarbyte/material-ui-dots#readme",
+  "dependencies": {
+    "prop-types": "^15.5.10"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-eslint": "^7.2.3",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "jest": "^20.0.4",
+    "material-ui": "^0.18.1",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-tap-event-plugin": "^2.0.1",
+    "react-test-renderer": "^15.5.4",
+    "standard": "^10.0.2"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  },
+  "peerDependencies": {
+    "material-ui": ">=0.15.0 <1.0.0",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-tap-event-plugin": "^1.0.0 || ^2.0.0"
+  }
+}
