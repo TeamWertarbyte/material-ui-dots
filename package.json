@@ -5,7 +5,7 @@
   "main": "lib/Dots.js",
   "scripts": {
     "build": "babel src -d lib --ignore spec.js",
-    "prepublish": "rm -r lib && npm run build",
+    "prepublish": "rm -rf lib && npm run build",
     "test": "standard && jest"
   },
   "repository": {
