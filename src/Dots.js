@@ -27,7 +27,7 @@ export default class Dots extends Component {
   constructor (props) {
     super(props)
     this.state = {
-      previousIndex: null
+      previousIndex: props.index || 0
     }
   }
 
