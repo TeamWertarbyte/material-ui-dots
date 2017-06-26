@@ -47,9 +47,9 @@ export default class Dots extends Component {
     }
   }
 
-  handleDotClick = (index) => {
+  handleDotClick = (index, event) => {
     if (this.props.onDotClick != null) {
-      this.props.onDotClick(index)
+      this.props.onDotClick(index, event)
     }
   }
 
@@ -68,7 +68,7 @@ export default class Dots extends Component {
                 left: i * 16,
                 cursor: this.props.onDotClick != null ? 'pointer' : 'inherit'
               }}
-              onTouchTap={() => this.handleDotClick(i)}
+              onTouchTap={(event) => this.handleDotClick(i, event)}
             >
               <Paper
                 circle
