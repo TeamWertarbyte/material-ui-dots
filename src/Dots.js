@@ -54,7 +54,7 @@ export default class Dots extends Component {
   }
 
   render () {
-    const {count, index, style = {}, ...other} = this.props
+    const {count, index, style = {}, onDotClick, ...other} = this.props
     const {previousIndex} = this.state
 
     return (
@@ -66,7 +66,7 @@ export default class Dots extends Component {
               style={{
                 ...styles.dotOuter,
                 left: i * 16,
-                cursor: this.props.onDotClick != null ? 'pointer' : 'inherit'
+                cursor: onDotClick != null ? 'pointer' : 'inherit'
               }}
               onTouchTap={(event) => this.handleDotClick(i, event)}
             >
