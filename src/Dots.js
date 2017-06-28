@@ -54,11 +54,11 @@ export default class Dots extends Component {
   }
 
   render () {
-    const {count, index, style = {}} = this.props
+    const {count, index, style = {}, ...other} = this.props
     const {previousIndex} = this.state
 
     return (
-      <div style={{...style, width: count * 16}}>
+      <div style={{...style, width: count * 16}} {...other}>
         <div style={styles.dots}>
           {[...Array(count).keys()].map((i) => (
             <div
