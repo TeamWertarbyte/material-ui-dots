@@ -27,7 +27,7 @@ export default class Dots extends Component {
   constructor (props) {
     super(props)
     this.state = {
-      previousIndex: null
+      previousIndex: props.index || 0
     }
   }
 
@@ -47,18 +47,18 @@ export default class Dots extends Component {
     }
   }
 
-  handleDotClick = (index) => {
+  handleDotClick = (index, event) => {
     if (this.props.onDotClick != null) {
-      this.props.onDotClick(index)
+      this.props.onDotClick(index, event)
     }
   }
 
   render () {
-    const {count, index, style = {}} = this.props
+    const {count, index, style = {}, onDotClick, ...other} = this.props
     const {previousIndex} = this.state
 
     return (
-      <div style={{...style, width: count * 16}}>
+      <div style={{...style, width: count * 16}} {...other}>
         <div style={styles.dots}>
           {[...Array(count).keys()].map((i) => (
             <div
@@ -66,9 +66,9 @@ export default class Dots extends Component {
               style={{
                 ...styles.dotOuter,
                 left: i * 16,
-                cursor: this.props.onDotClick != null ? 'pointer' : 'inherit'
+                cursor: onDotClick != null ? 'pointer' : 'inherit'
               }}
-              onTouchTap={() => this.handleDotClick(i)}
+              onTouchTap={(event) => this.handleDotClick(i, event)}
             >
               <Paper
                 circle
