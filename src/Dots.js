@@ -17,27 +17,36 @@ const styles = {
   dot: {
     width: 8,
     height: 8,
-    background: '#fff',
     transition: 'all 400ms cubic-bezier(0.4, 0.0, 0.2, 1)',
     borderRadius: 4
   }
 }
 
+const prepareDotStyle = dotColor => ({
+  ...styles.dot,
+  background: dotColor
+});
+
 export default class Dots extends Component {
   constructor (props) {
     super(props)
     this.state = {
-      previousIndex: props.index || 0
+      previousIndex: props.index || 0,
+      dotStyle: prepareDotStyle(props.dotColor)
     }
   }
 
-  componentWillReceiveProps ({index}) {
+  componentWillReceiveProps ({index, dotColor}) {
     if (index !== this.props.index) {
       this.setState({previousIndex: this.props.index})
       this.timeout = setTimeout(() => {
         this.timeout = null
         this.setState({previousIndex: index})
       }, 450)
+    }
+    
+    if (dotColor !== this.props.dotColor) {
+      this.setState({dotStyle: prepareDotStyle(dotColor)})
     }
   }
 
@@ -54,8 +63,8 @@ export default class Dots extends Component {
   }
 
   render () {
-    const {count, index, style = {}, onDotClick, ...other} = this.props
-    const {previousIndex} = this.state
+    const {count, index, style = {}, onDotClick, dotColor, ...other} = this.props
+    const {previousIndex, dotStyle} = this.state
 
     return (
       <div style={{...style, width: count * 16}} {...other}>
@@ -74,7 +83,7 @@ export default class Dots extends Component {
                 circle
                 zDepth={0}
                 style={{
-                  ...styles.dot,
+                  ...dotStyle,
                   opacity: i >= Math.min(previousIndex, index) && i <= Math.max(previousIndex, index) ? 0 : 0.5
                 }}
               />
@@ -83,7 +92,7 @@ export default class Dots extends Component {
           <Paper
             zDepth={0}
             style={{
-              ...styles.dot,
+              ...dotStyle,
               position: 'absolute',
               marginTop: 4,
               left: Math.min(previousIndex, index) * 16 + 4,
@@ -100,5 +109,10 @@ Dots.propTypes = {
   count: PropTypes.number.isRequired,
   index: PropTypes.number.isRequired,
   style: PropTypes.object,
+  dotColor: PropTypes.string,
   onDotClick: PropTypes.func
+}
+
+Dots.defaultProps = {
+  dotColor: '#fff'
 }
