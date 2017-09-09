@@ -18,7 +18,7 @@ exports[`custom style 1`] = `
     }
   >
     <div
-      onTouchTap={[Function]}
+      onClick={[Function]}
       style={
         Object {
           "cursor": "inherit",
@@ -52,7 +52,7 @@ exports[`custom style 1`] = `
       />
     </div>
     <div
-      onTouchTap={[Function]}
+      onClick={[Function]}
       style={
         Object {
           "cursor": "inherit",
@@ -86,7 +86,7 @@ exports[`custom style 1`] = `
       />
     </div>
     <div
-      onTouchTap={[Function]}
+      onClick={[Function]}
       style={
         Object {
           "cursor": "inherit",
@@ -120,7 +120,7 @@ exports[`custom style 1`] = `
       />
     </div>
     <div
-      onTouchTap={[Function]}
+      onClick={[Function]}
       style={
         Object {
           "cursor": "inherit",
@@ -154,7 +154,7 @@ exports[`custom style 1`] = `
       />
     </div>
     <div
-      onTouchTap={[Function]}
+      onClick={[Function]}
       style={
         Object {
           "cursor": "inherit",
@@ -229,7 +229,7 @@ exports[`onDotClick handler 1`] = `
     }
   >
     <div
-      onTouchTap={[Function]}
+      onClick={[Function]}
       style={
         Object {
           "cursor": "pointer",
@@ -263,7 +263,7 @@ exports[`onDotClick handler 1`] = `
       />
     </div>
     <div
-      onTouchTap={[Function]}
+      onClick={[Function]}
       style={
         Object {
           "cursor": "pointer",
@@ -297,7 +297,7 @@ exports[`onDotClick handler 1`] = `
       />
     </div>
     <div
-      onTouchTap={[Function]}
+      onClick={[Function]}
       style={
         Object {
           "cursor": "pointer",
@@ -372,7 +372,7 @@ exports[`three dots, first is selected 1`] = `
     }
   >
     <div
-      onTouchTap={[Function]}
+      onClick={[Function]}
       style={
         Object {
           "cursor": "inherit",
@@ -406,7 +406,7 @@ exports[`three dots, first is selected 1`] = `
       />
     </div>
     <div
-      onTouchTap={[Function]}
+      onClick={[Function]}
       style={
         Object {
           "cursor": "inherit",
@@ -440,7 +440,7 @@ exports[`three dots, first is selected 1`] = `
       />
     </div>
     <div
-      onTouchTap={[Function]}
+      onClick={[Function]}
       style={
         Object {
           "cursor": "inherit",
