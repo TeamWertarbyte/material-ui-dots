@@ -24,8 +24,8 @@ const styles = {
 
 const prepareDotStyle = dotColor => ({
   ...styles.dot,
-  background: dotColor
-});
+  backgroundColor: dotColor
+})
 
 export default class Dots extends Component {
   constructor (props) {
@@ -44,7 +44,7 @@ export default class Dots extends Component {
         this.setState({previousIndex: index})
       }, 450)
     }
-    
+
     if (dotColor !== this.props.dotColor) {
       this.setState({dotStyle: prepareDotStyle(dotColor)})
     }
