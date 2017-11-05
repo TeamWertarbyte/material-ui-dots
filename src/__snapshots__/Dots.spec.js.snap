@@ -1,499 +1,322 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`custom style 1`] = `
-<div
-  style={
-    Object {
-      "backgroundColor": "red",
-      "width": 80,
-    }
-  }
+exports[`<Dots /> matches the snapshot 1`] = `
+<withStyles(Dots)
+  count={3}
+  index={0}
 >
-  <div
-    style={
+  <Dots
+    classes={
       Object {
-        "padding": "20px 0 28px",
-        "position": "relative",
+        "dot": "Dots-dot-3",
+        "dotOuter": "Dots-dotOuter-2",
+        "dots": "Dots-dots-1",
       }
     }
+    count={3}
+    index={0}
   >
     <div
-      onClick={[Function]}
       style={
         Object {
-          "cursor": "inherit",
-          "float": "left",
-          "height": 8,
-          "left": 0,
-          "padding": 4,
-          "position": "absolute",
-          "width": 8,
+          "width": 48,
         }
       }
     >
       <div
-        style={
-          Object {
-            "WebkitTapHighlightColor": "rgba(0,0,0,0)",
-            "background": "#fff",
-            "backgroundColor": "#ffffff",
-            "borderRadius": 4,
-            "boxShadow": undefined,
-            "boxSizing": "border-box",
-            "color": "rgba(0, 0, 0, 0.87)",
-            "fontFamily": "Roboto, sans-serif",
-            "height": 8,
-            "muiPrepared": true,
-            "opacity": 0,
-            "transition": "all 400ms cubic-bezier(0.4, 0.0, 0.2, 1)",
-            "width": 8,
+        className="Dots-dots-1"
+      >
+        <div
+          className="Dots-dotOuter-2"
+          key="0"
+          onClick={[Function]}
+          style={
+            Object {
+              "cursor": "inherit",
+              "left": 0,
+            }
           }
-        }
-      />
-    </div>
-    <div
-      onClick={[Function]}
-      style={
-        Object {
-          "cursor": "inherit",
-          "float": "left",
-          "height": 8,
-          "left": 16,
-          "padding": 4,
-          "position": "absolute",
-          "width": 8,
-        }
-      }
-    >
-      <div
-        style={
-          Object {
-            "WebkitTapHighlightColor": "rgba(0,0,0,0)",
-            "background": "#fff",
-            "backgroundColor": "#ffffff",
-            "borderRadius": 4,
-            "boxShadow": undefined,
-            "boxSizing": "border-box",
-            "color": "rgba(0, 0, 0, 0.87)",
-            "fontFamily": "Roboto, sans-serif",
-            "height": 8,
-            "muiPrepared": true,
-            "opacity": 0.5,
-            "transition": "all 400ms cubic-bezier(0.4, 0.0, 0.2, 1)",
-            "width": 8,
+        >
+          <withStyles(Paper)
+            className="Dots-dot-3"
+            elevation={0}
+            style={
+              Object {
+                "opacity": 0,
+              }
+            }
+          >
+            <Paper
+              className="Dots-dot-3"
+              classes={
+                Object {
+                  "root": "MuiPaper-root-4",
+                  "rounded": "MuiPaper-rounded-5",
+                  "shadow0": "MuiPaper-shadow0-6",
+                  "shadow1": "MuiPaper-shadow1-7",
+                  "shadow10": "MuiPaper-shadow10-16",
+                  "shadow11": "MuiPaper-shadow11-17",
+                  "shadow12": "MuiPaper-shadow12-18",
+                  "shadow13": "MuiPaper-shadow13-19",
+                  "shadow14": "MuiPaper-shadow14-20",
+                  "shadow15": "MuiPaper-shadow15-21",
+                  "shadow16": "MuiPaper-shadow16-22",
+                  "shadow17": "MuiPaper-shadow17-23",
+                  "shadow18": "MuiPaper-shadow18-24",
+                  "shadow19": "MuiPaper-shadow19-25",
+                  "shadow2": "MuiPaper-shadow2-8",
+                  "shadow20": "MuiPaper-shadow20-26",
+                  "shadow21": "MuiPaper-shadow21-27",
+                  "shadow22": "MuiPaper-shadow22-28",
+                  "shadow23": "MuiPaper-shadow23-29",
+                  "shadow24": "MuiPaper-shadow24-30",
+                  "shadow3": "MuiPaper-shadow3-9",
+                  "shadow4": "MuiPaper-shadow4-10",
+                  "shadow5": "MuiPaper-shadow5-11",
+                  "shadow6": "MuiPaper-shadow6-12",
+                  "shadow7": "MuiPaper-shadow7-13",
+                  "shadow8": "MuiPaper-shadow8-14",
+                  "shadow9": "MuiPaper-shadow9-15",
+                }
+              }
+              component="div"
+              elevation={0}
+              square={false}
+              style={
+                Object {
+                  "opacity": 0,
+                }
+              }
+            >
+              <div
+                className="MuiPaper-root-4 MuiPaper-shadow0-6 MuiPaper-rounded-5 Dots-dot-3"
+                style={
+                  Object {
+                    "opacity": 0,
+                  }
+                }
+              />
+            </Paper>
+          </withStyles(Paper)>
+        </div>
+        <div
+          className="Dots-dotOuter-2"
+          key="1"
+          onClick={[Function]}
+          style={
+            Object {
+              "cursor": "inherit",
+              "left": 16,
+            }
           }
-        }
-      />
-    </div>
-    <div
-      onClick={[Function]}
-      style={
-        Object {
-          "cursor": "inherit",
-          "float": "left",
-          "height": 8,
-          "left": 32,
-          "padding": 4,
-          "position": "absolute",
-          "width": 8,
-        }
-      }
-    >
-      <div
-        style={
-          Object {
-            "WebkitTapHighlightColor": "rgba(0,0,0,0)",
-            "background": "#fff",
-            "backgroundColor": "#ffffff",
-            "borderRadius": 4,
-            "boxShadow": undefined,
-            "boxSizing": "border-box",
-            "color": "rgba(0, 0, 0, 0.87)",
-            "fontFamily": "Roboto, sans-serif",
-            "height": 8,
-            "muiPrepared": true,
-            "opacity": 0.5,
-            "transition": "all 400ms cubic-bezier(0.4, 0.0, 0.2, 1)",
-            "width": 8,
+        >
+          <withStyles(Paper)
+            className="Dots-dot-3"
+            elevation={0}
+            style={
+              Object {
+                "opacity": 0.5,
+              }
+            }
+          >
+            <Paper
+              className="Dots-dot-3"
+              classes={
+                Object {
+                  "root": "MuiPaper-root-4",
+                  "rounded": "MuiPaper-rounded-5",
+                  "shadow0": "MuiPaper-shadow0-6",
+                  "shadow1": "MuiPaper-shadow1-7",
+                  "shadow10": "MuiPaper-shadow10-16",
+                  "shadow11": "MuiPaper-shadow11-17",
+                  "shadow12": "MuiPaper-shadow12-18",
+                  "shadow13": "MuiPaper-shadow13-19",
+                  "shadow14": "MuiPaper-shadow14-20",
+                  "shadow15": "MuiPaper-shadow15-21",
+                  "shadow16": "MuiPaper-shadow16-22",
+                  "shadow17": "MuiPaper-shadow17-23",
+                  "shadow18": "MuiPaper-shadow18-24",
+                  "shadow19": "MuiPaper-shadow19-25",
+                  "shadow2": "MuiPaper-shadow2-8",
+                  "shadow20": "MuiPaper-shadow20-26",
+                  "shadow21": "MuiPaper-shadow21-27",
+                  "shadow22": "MuiPaper-shadow22-28",
+                  "shadow23": "MuiPaper-shadow23-29",
+                  "shadow24": "MuiPaper-shadow24-30",
+                  "shadow3": "MuiPaper-shadow3-9",
+                  "shadow4": "MuiPaper-shadow4-10",
+                  "shadow5": "MuiPaper-shadow5-11",
+                  "shadow6": "MuiPaper-shadow6-12",
+                  "shadow7": "MuiPaper-shadow7-13",
+                  "shadow8": "MuiPaper-shadow8-14",
+                  "shadow9": "MuiPaper-shadow9-15",
+                }
+              }
+              component="div"
+              elevation={0}
+              square={false}
+              style={
+                Object {
+                  "opacity": 0.5,
+                }
+              }
+            >
+              <div
+                className="MuiPaper-root-4 MuiPaper-shadow0-6 MuiPaper-rounded-5 Dots-dot-3"
+                style={
+                  Object {
+                    "opacity": 0.5,
+                  }
+                }
+              />
+            </Paper>
+          </withStyles(Paper)>
+        </div>
+        <div
+          className="Dots-dotOuter-2"
+          key="2"
+          onClick={[Function]}
+          style={
+            Object {
+              "cursor": "inherit",
+              "left": 32,
+            }
           }
-        }
-      />
-    </div>
-    <div
-      onClick={[Function]}
-      style={
-        Object {
-          "cursor": "inherit",
-          "float": "left",
-          "height": 8,
-          "left": 48,
-          "padding": 4,
-          "position": "absolute",
-          "width": 8,
-        }
-      }
-    >
-      <div
-        style={
-          Object {
-            "WebkitTapHighlightColor": "rgba(0,0,0,0)",
-            "background": "#fff",
-            "backgroundColor": "#ffffff",
-            "borderRadius": 4,
-            "boxShadow": undefined,
-            "boxSizing": "border-box",
-            "color": "rgba(0, 0, 0, 0.87)",
-            "fontFamily": "Roboto, sans-serif",
-            "height": 8,
-            "muiPrepared": true,
-            "opacity": 0.5,
-            "transition": "all 400ms cubic-bezier(0.4, 0.0, 0.2, 1)",
-            "width": 8,
+        >
+          <withStyles(Paper)
+            className="Dots-dot-3"
+            elevation={0}
+            style={
+              Object {
+                "opacity": 0.5,
+              }
+            }
+          >
+            <Paper
+              className="Dots-dot-3"
+              classes={
+                Object {
+                  "root": "MuiPaper-root-4",
+                  "rounded": "MuiPaper-rounded-5",
+                  "shadow0": "MuiPaper-shadow0-6",
+                  "shadow1": "MuiPaper-shadow1-7",
+                  "shadow10": "MuiPaper-shadow10-16",
+                  "shadow11": "MuiPaper-shadow11-17",
+                  "shadow12": "MuiPaper-shadow12-18",
+                  "shadow13": "MuiPaper-shadow13-19",
+                  "shadow14": "MuiPaper-shadow14-20",
+                  "shadow15": "MuiPaper-shadow15-21",
+                  "shadow16": "MuiPaper-shadow16-22",
+                  "shadow17": "MuiPaper-shadow17-23",
+                  "shadow18": "MuiPaper-shadow18-24",
+                  "shadow19": "MuiPaper-shadow19-25",
+                  "shadow2": "MuiPaper-shadow2-8",
+                  "shadow20": "MuiPaper-shadow20-26",
+                  "shadow21": "MuiPaper-shadow21-27",
+                  "shadow22": "MuiPaper-shadow22-28",
+                  "shadow23": "MuiPaper-shadow23-29",
+                  "shadow24": "MuiPaper-shadow24-30",
+                  "shadow3": "MuiPaper-shadow3-9",
+                  "shadow4": "MuiPaper-shadow4-10",
+                  "shadow5": "MuiPaper-shadow5-11",
+                  "shadow6": "MuiPaper-shadow6-12",
+                  "shadow7": "MuiPaper-shadow7-13",
+                  "shadow8": "MuiPaper-shadow8-14",
+                  "shadow9": "MuiPaper-shadow9-15",
+                }
+              }
+              component="div"
+              elevation={0}
+              square={false}
+              style={
+                Object {
+                  "opacity": 0.5,
+                }
+              }
+            >
+              <div
+                className="MuiPaper-root-4 MuiPaper-shadow0-6 MuiPaper-rounded-5 Dots-dot-3"
+                style={
+                  Object {
+                    "opacity": 0.5,
+                  }
+                }
+              />
+            </Paper>
+          </withStyles(Paper)>
+        </div>
+        <withStyles(Paper)
+          className="Dots-dot-3"
+          elevation={0}
+          style={
+            Object {
+              "left": 4,
+              "marginTop": 4,
+              "position": "absolute",
+              "width": 8,
+            }
           }
-        }
-      />
+        >
+          <Paper
+            className="Dots-dot-3"
+            classes={
+              Object {
+                "root": "MuiPaper-root-4",
+                "rounded": "MuiPaper-rounded-5",
+                "shadow0": "MuiPaper-shadow0-6",
+                "shadow1": "MuiPaper-shadow1-7",
+                "shadow10": "MuiPaper-shadow10-16",
+                "shadow11": "MuiPaper-shadow11-17",
+                "shadow12": "MuiPaper-shadow12-18",
+                "shadow13": "MuiPaper-shadow13-19",
+                "shadow14": "MuiPaper-shadow14-20",
+                "shadow15": "MuiPaper-shadow15-21",
+                "shadow16": "MuiPaper-shadow16-22",
+                "shadow17": "MuiPaper-shadow17-23",
+                "shadow18": "MuiPaper-shadow18-24",
+                "shadow19": "MuiPaper-shadow19-25",
+                "shadow2": "MuiPaper-shadow2-8",
+                "shadow20": "MuiPaper-shadow20-26",
+                "shadow21": "MuiPaper-shadow21-27",
+                "shadow22": "MuiPaper-shadow22-28",
+                "shadow23": "MuiPaper-shadow23-29",
+                "shadow24": "MuiPaper-shadow24-30",
+                "shadow3": "MuiPaper-shadow3-9",
+                "shadow4": "MuiPaper-shadow4-10",
+                "shadow5": "MuiPaper-shadow5-11",
+                "shadow6": "MuiPaper-shadow6-12",
+                "shadow7": "MuiPaper-shadow7-13",
+                "shadow8": "MuiPaper-shadow8-14",
+                "shadow9": "MuiPaper-shadow9-15",
+              }
+            }
+            component="div"
+            elevation={0}
+            square={false}
+            style={
+              Object {
+                "left": 4,
+                "marginTop": 4,
+                "position": "absolute",
+                "width": 8,
+              }
+            }
+          >
+            <div
+              className="MuiPaper-root-4 MuiPaper-shadow0-6 MuiPaper-rounded-5 Dots-dot-3"
+              style={
+                Object {
+                  "left": 4,
+                  "marginTop": 4,
+                  "position": "absolute",
+                  "width": 8,
+                }
+              }
+            />
+          </Paper>
+        </withStyles(Paper)>
+      </div>
     </div>
-    <div
-      onClick={[Function]}
-      style={
-        Object {
-          "cursor": "inherit",
-          "float": "left",
-          "height": 8,
-          "left": 64,
-          "padding": 4,
-          "position": "absolute",
-          "width": 8,
-        }
-      }
-    >
-      <div
-        style={
-          Object {
-            "WebkitTapHighlightColor": "rgba(0,0,0,0)",
-            "background": "#fff",
-            "backgroundColor": "#ffffff",
-            "borderRadius": 4,
-            "boxShadow": undefined,
-            "boxSizing": "border-box",
-            "color": "rgba(0, 0, 0, 0.87)",
-            "fontFamily": "Roboto, sans-serif",
-            "height": 8,
-            "muiPrepared": true,
-            "opacity": 0.5,
-            "transition": "all 400ms cubic-bezier(0.4, 0.0, 0.2, 1)",
-            "width": 8,
-          }
-        }
-      />
-    </div>
-    <div
-      style={
-        Object {
-          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
-          "background": "#fff",
-          "backgroundColor": "#ffffff",
-          "borderRadius": 4,
-          "boxShadow": undefined,
-          "boxSizing": "border-box",
-          "color": "rgba(0, 0, 0, 0.87)",
-          "fontFamily": "Roboto, sans-serif",
-          "height": 8,
-          "left": 4,
-          "marginTop": 4,
-          "muiPrepared": true,
-          "position": "absolute",
-          "transition": "all 400ms cubic-bezier(0.4, 0.0, 0.2, 1)",
-          "width": 8,
-        }
-      }
-    />
-  </div>
-</div>
-`;
-
-exports[`onDotClick handler 1`] = `
-<div
-  style={
-    Object {
-      "width": 48,
-    }
-  }
->
-  <div
-    style={
-      Object {
-        "padding": "20px 0 28px",
-        "position": "relative",
-      }
-    }
-  >
-    <div
-      onClick={[Function]}
-      style={
-        Object {
-          "cursor": "pointer",
-          "float": "left",
-          "height": 8,
-          "left": 0,
-          "padding": 4,
-          "position": "absolute",
-          "width": 8,
-        }
-      }
-    >
-      <div
-        style={
-          Object {
-            "WebkitTapHighlightColor": "rgba(0,0,0,0)",
-            "background": "#fff",
-            "backgroundColor": "#ffffff",
-            "borderRadius": 4,
-            "boxShadow": undefined,
-            "boxSizing": "border-box",
-            "color": "rgba(0, 0, 0, 0.87)",
-            "fontFamily": "Roboto, sans-serif",
-            "height": 8,
-            "muiPrepared": true,
-            "opacity": 0,
-            "transition": "all 400ms cubic-bezier(0.4, 0.0, 0.2, 1)",
-            "width": 8,
-          }
-        }
-      />
-    </div>
-    <div
-      onClick={[Function]}
-      style={
-        Object {
-          "cursor": "pointer",
-          "float": "left",
-          "height": 8,
-          "left": 16,
-          "padding": 4,
-          "position": "absolute",
-          "width": 8,
-        }
-      }
-    >
-      <div
-        style={
-          Object {
-            "WebkitTapHighlightColor": "rgba(0,0,0,0)",
-            "background": "#fff",
-            "backgroundColor": "#ffffff",
-            "borderRadius": 4,
-            "boxShadow": undefined,
-            "boxSizing": "border-box",
-            "color": "rgba(0, 0, 0, 0.87)",
-            "fontFamily": "Roboto, sans-serif",
-            "height": 8,
-            "muiPrepared": true,
-            "opacity": 0.5,
-            "transition": "all 400ms cubic-bezier(0.4, 0.0, 0.2, 1)",
-            "width": 8,
-          }
-        }
-      />
-    </div>
-    <div
-      onClick={[Function]}
-      style={
-        Object {
-          "cursor": "pointer",
-          "float": "left",
-          "height": 8,
-          "left": 32,
-          "padding": 4,
-          "position": "absolute",
-          "width": 8,
-        }
-      }
-    >
-      <div
-        style={
-          Object {
-            "WebkitTapHighlightColor": "rgba(0,0,0,0)",
-            "background": "#fff",
-            "backgroundColor": "#ffffff",
-            "borderRadius": 4,
-            "boxShadow": undefined,
-            "boxSizing": "border-box",
-            "color": "rgba(0, 0, 0, 0.87)",
-            "fontFamily": "Roboto, sans-serif",
-            "height": 8,
-            "muiPrepared": true,
-            "opacity": 0.5,
-            "transition": "all 400ms cubic-bezier(0.4, 0.0, 0.2, 1)",
-            "width": 8,
-          }
-        }
-      />
-    </div>
-    <div
-      style={
-        Object {
-          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
-          "background": "#fff",
-          "backgroundColor": "#ffffff",
-          "borderRadius": 4,
-          "boxShadow": undefined,
-          "boxSizing": "border-box",
-          "color": "rgba(0, 0, 0, 0.87)",
-          "fontFamily": "Roboto, sans-serif",
-          "height": 8,
-          "left": 4,
-          "marginTop": 4,
-          "muiPrepared": true,
-          "position": "absolute",
-          "transition": "all 400ms cubic-bezier(0.4, 0.0, 0.2, 1)",
-          "width": 8,
-        }
-      }
-    />
-  </div>
-</div>
-`;
-
-exports[`three dots, first is selected 1`] = `
-<div
-  style={
-    Object {
-      "width": 48,
-    }
-  }
->
-  <div
-    style={
-      Object {
-        "padding": "20px 0 28px",
-        "position": "relative",
-      }
-    }
-  >
-    <div
-      onClick={[Function]}
-      style={
-        Object {
-          "cursor": "inherit",
-          "float": "left",
-          "height": 8,
-          "left": 0,
-          "padding": 4,
-          "position": "absolute",
-          "width": 8,
-        }
-      }
-    >
-      <div
-        style={
-          Object {
-            "WebkitTapHighlightColor": "rgba(0,0,0,0)",
-            "background": "#fff",
-            "backgroundColor": "#ffffff",
-            "borderRadius": 4,
-            "boxShadow": undefined,
-            "boxSizing": "border-box",
-            "color": "rgba(0, 0, 0, 0.87)",
-            "fontFamily": "Roboto, sans-serif",
-            "height": 8,
-            "muiPrepared": true,
-            "opacity": 0,
-            "transition": "all 400ms cubic-bezier(0.4, 0.0, 0.2, 1)",
-            "width": 8,
-          }
-        }
-      />
-    </div>
-    <div
-      onClick={[Function]}
-      style={
-        Object {
-          "cursor": "inherit",
-          "float": "left",
-          "height": 8,
-          "left": 16,
-          "padding": 4,
-          "position": "absolute",
-          "width": 8,
-        }
-      }
-    >
-      <div
-        style={
-          Object {
-            "WebkitTapHighlightColor": "rgba(0,0,0,0)",
-            "background": "#fff",
-            "backgroundColor": "#ffffff",
-            "borderRadius": 4,
-            "boxShadow": undefined,
-            "boxSizing": "border-box",
-            "color": "rgba(0, 0, 0, 0.87)",
-            "fontFamily": "Roboto, sans-serif",
-            "height": 8,
-            "muiPrepared": true,
-            "opacity": 0.5,
-            "transition": "all 400ms cubic-bezier(0.4, 0.0, 0.2, 1)",
-            "width": 8,
-          }
-        }
-      />
-    </div>
-    <div
-      onClick={[Function]}
-      style={
-        Object {
-          "cursor": "inherit",
-          "float": "left",
-          "height": 8,
-          "left": 32,
-          "padding": 4,
-          "position": "absolute",
-          "width": 8,
-        }
-      }
-    >
-      <div
-        style={
-          Object {
-            "WebkitTapHighlightColor": "rgba(0,0,0,0)",
-            "background": "#fff",
-            "backgroundColor": "#ffffff",
-            "borderRadius": 4,
-            "boxShadow": undefined,
-            "boxSizing": "border-box",
-            "color": "rgba(0, 0, 0, 0.87)",
-            "fontFamily": "Roboto, sans-serif",
-            "height": 8,
-            "muiPrepared": true,
-            "opacity": 0.5,
-            "transition": "all 400ms cubic-bezier(0.4, 0.0, 0.2, 1)",
-            "width": 8,
-          }
-        }
-      />
-    </div>
-    <div
-      style={
-        Object {
-          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
-          "background": "#fff",
-          "backgroundColor": "#ffffff",
-          "borderRadius": 4,
-          "boxShadow": undefined,
-          "boxSizing": "border-box",
-          "color": "rgba(0, 0, 0, 0.87)",
-          "fontFamily": "Roboto, sans-serif",
-          "height": 8,
-          "left": 4,
-          "marginTop": 4,
-          "muiPrepared": true,
-          "position": "absolute",
-          "transition": "all 400ms cubic-bezier(0.4, 0.0, 0.2, 1)",
-          "width": 8,
-        }
-      }
-    />
-  </div>
-</div>
+  </Dots>
+</withStyles(Dots)>
 `;

@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import Paper from 'material-ui/Paper'
+import withStyles from 'material-ui/styles/withStyles'
 
 const styles = {
   dots: {
@@ -23,7 +24,7 @@ const styles = {
   }
 }
 
-export default class Dots extends Component {
+class Dots extends Component {
   constructor (props) {
     super(props)
     this.state = {
@@ -54,36 +55,35 @@ export default class Dots extends Component {
   }
 
   render () {
-    const {count, index, style = {}, onDotClick, ...other} = this.props
+    const {classes, count, index, style = {}, onDotClick, ...other} = this.props
     const {previousIndex} = this.state
 
     return (
       <div style={{...style, width: count * 16}} {...other}>
-        <div style={styles.dots}>
+        <div className={classes.dots}>
           {[...Array(count).keys()].map((i) => (
             <div
               key={i}
+              className={classes.dotOuter}
               style={{
-                ...styles.dotOuter,
                 left: i * 16,
                 cursor: onDotClick != null ? 'pointer' : 'inherit'
               }}
               onClick={(event) => this.handleDotClick(i, event)}
             >
               <Paper
-                circle
-                zDepth={0}
+                elevation={0}
+                className={classes.dot}
                 style={{
-                  ...styles.dot,
                   opacity: i >= Math.min(previousIndex, index) && i <= Math.max(previousIndex, index) ? 0 : 0.5
                 }}
               />
             </div>
           ))}
           <Paper
-            zDepth={0}
+            elevation={0}
+            className={classes.dot}
             style={{
-              ...styles.dot,
               position: 'absolute',
               marginTop: 4,
               left: Math.min(previousIndex, index) * 16 + 4,
@@ -102,3 +102,5 @@ Dots.propTypes = {
   style: PropTypes.object,
   onDotClick: PropTypes.func
 }
+
+export default withStyles(styles)(Dots)

@@ -1,7 +1,8 @@
 # Material-UI Dots
 
-[![Build Status](https://travis-ci.org/TeamWertarbyte/material-ui-dots.svg?branch=master)](https://travis-ci.org/TeamWertarbyte/material-ui-dots)
-[![Greenkeeper badge](https://badges.greenkeeper.io/TeamWertarbyte/material-ui-dots.svg)](https://greenkeeper.io/)
+[![npm Package](https://img.shields.io/npm/v/material-ui-dots/next.svg)](https://www.npmjs.com/package/material-ui-dots)
+[![Build Status](https://travis-ci.org/TeamWertarbyte/material-ui-dots.svg?branch=next)](https://travis-ci.org/TeamWertarbyte/material-ui-dots)
+[![Coverage Status](https://coveralls.io/repos/github/TeamWertarbyte/material-ui-dots/badge.svg?branch=next)](https://coveralls.io/github/TeamWertarbyte/material-ui-dots?branch=next)
 [![Standard - JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 This component gives you animated pagination dots as seen in the [Material Design specs][material-specs] and in the quick settings menu of Android N. The dots were extracted from our [auto-rotating carousel][material-auto-rotating-carousel] component.
