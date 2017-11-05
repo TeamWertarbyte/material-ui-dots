@@ -9,6 +9,7 @@
   "scripts": {
     "build": "babel src -d lib --ignore spec.js",
     "prepublish": "rm -rf lib && npm run build",
+    "lint": "standard",
     "test": "standard && jest",
     "test:coverage": "jest --coverage && cat ./coverage/lcov.info | coveralls",
     "test:unit": "jest"
