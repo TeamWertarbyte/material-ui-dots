@@ -73,6 +73,7 @@ export default class Dots extends Component {
                 circle
                 zDepth={0}
                 style={{
+                  ...styles.dot,
                   backgroundColor: dotColor,
                   opacity: i >= Math.min(previousIndex, index) && i <= Math.max(previousIndex, index) ? 0 : 0.5
                 }}
@@ -82,6 +83,7 @@ export default class Dots extends Component {
           <Paper
             zDepth={0}
             style={{
+              ...styles.dot,
               backgroundColor: dotColor,
               position: 'absolute',
               marginTop: 4,
