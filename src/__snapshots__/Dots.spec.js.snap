@@ -35,16 +35,14 @@ exports[`custom dot color 1`] = `
           Object {
             "WebkitTapHighlightColor": "rgba(0,0,0,0)",
             "backgroundColor": "red",
-            "borderRadius": 4,
+            "borderRadius": "50%",
             "boxShadow": undefined,
             "boxSizing": "border-box",
             "color": "rgba(0, 0, 0, 0.87)",
             "fontFamily": "Roboto, sans-serif",
-            "height": 8,
             "muiPrepared": true,
             "opacity": 0,
-            "transition": "all 400ms cubic-bezier(0.4, 0.0, 0.2, 1)",
-            "width": 8,
+            "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
           }
         }
       />
@@ -68,16 +66,14 @@ exports[`custom dot color 1`] = `
           Object {
             "WebkitTapHighlightColor": "rgba(0,0,0,0)",
             "backgroundColor": "red",
-            "borderRadius": 4,
+            "borderRadius": "50%",
             "boxShadow": undefined,
             "boxSizing": "border-box",
             "color": "rgba(0, 0, 0, 0.87)",
             "fontFamily": "Roboto, sans-serif",
-            "height": 8,
             "muiPrepared": true,
             "opacity": 0.5,
-            "transition": "all 400ms cubic-bezier(0.4, 0.0, 0.2, 1)",
-            "width": 8,
+            "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
           }
         }
       />
@@ -101,16 +97,14 @@ exports[`custom dot color 1`] = `
           Object {
             "WebkitTapHighlightColor": "rgba(0,0,0,0)",
             "backgroundColor": "red",
-            "borderRadius": 4,
+            "borderRadius": "50%",
             "boxShadow": undefined,
             "boxSizing": "border-box",
             "color": "rgba(0, 0, 0, 0.87)",
             "fontFamily": "Roboto, sans-serif",
-            "height": 8,
             "muiPrepared": true,
             "opacity": 0.5,
-            "transition": "all 400ms cubic-bezier(0.4, 0.0, 0.2, 1)",
-            "width": 8,
+            "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
           }
         }
       />
@@ -134,16 +128,14 @@ exports[`custom dot color 1`] = `
           Object {
             "WebkitTapHighlightColor": "rgba(0,0,0,0)",
             "backgroundColor": "red",
-            "borderRadius": 4,
+            "borderRadius": "50%",
             "boxShadow": undefined,
             "boxSizing": "border-box",
             "color": "rgba(0, 0, 0, 0.87)",
             "fontFamily": "Roboto, sans-serif",
-            "height": 8,
             "muiPrepared": true,
             "opacity": 0.5,
-            "transition": "all 400ms cubic-bezier(0.4, 0.0, 0.2, 1)",
-            "width": 8,
+            "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
           }
         }
       />
@@ -153,17 +145,16 @@ exports[`custom dot color 1`] = `
         Object {
           "WebkitTapHighlightColor": "rgba(0,0,0,0)",
           "backgroundColor": "red",
-          "borderRadius": 4,
+          "borderRadius": 2,
           "boxShadow": undefined,
           "boxSizing": "border-box",
           "color": "rgba(0, 0, 0, 0.87)",
           "fontFamily": "Roboto, sans-serif",
-          "height": 8,
           "left": 4,
           "marginTop": 4,
           "muiPrepared": true,
           "position": "absolute",
-          "transition": "all 400ms cubic-bezier(0.4, 0.0, 0.2, 1)",
+          "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
           "width": 8,
         }
       }
@@ -208,16 +199,14 @@ exports[`custom style 1`] = `
           Object {
             "WebkitTapHighlightColor": "rgba(0,0,0,0)",
             "backgroundColor": "#fff",
-            "borderRadius": 4,
+            "borderRadius": "50%",
             "boxShadow": undefined,
             "boxSizing": "border-box",
             "color": "rgba(0, 0, 0, 0.87)",
             "fontFamily": "Roboto, sans-serif",
-            "height": 8,
             "muiPrepared": true,
             "opacity": 0,
-            "transition": "all 400ms cubic-bezier(0.4, 0.0, 0.2, 1)",
-            "width": 8,
+            "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
           }
         }
       />
@@ -241,16 +230,14 @@ exports[`custom style 1`] = `
           Object {
             "WebkitTapHighlightColor": "rgba(0,0,0,0)",
             "backgroundColor": "#fff",
-            "borderRadius": 4,
+            "borderRadius": "50%",
             "boxShadow": undefined,
             "boxSizing": "border-box",
             "color": "rgba(0, 0, 0, 0.87)",
             "fontFamily": "Roboto, sans-serif",
-            "height": 8,
             "muiPrepared": true,
             "opacity": 0.5,
-            "transition": "all 400ms cubic-bezier(0.4, 0.0, 0.2, 1)",
-            "width": 8,
+            "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
           }
         }
       />
@@ -274,16 +261,14 @@ exports[`custom style 1`] = `
           Object {
             "WebkitTapHighlightColor": "rgba(0,0,0,0)",
             "backgroundColor": "#fff",
-            "borderRadius": 4,
+            "borderRadius": "50%",
             "boxShadow": undefined,
             "boxSizing": "border-box",
             "color": "rgba(0, 0, 0, 0.87)",
             "fontFamily": "Roboto, sans-serif",
-            "height": 8,
             "muiPrepared": true,
             "opacity": 0.5,
-            "transition": "all 400ms cubic-bezier(0.4, 0.0, 0.2, 1)",
-            "width": 8,
+            "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
           }
         }
       />
@@ -307,16 +292,14 @@ exports[`custom style 1`] = `
           Object {
             "WebkitTapHighlightColor": "rgba(0,0,0,0)",
             "backgroundColor": "#fff",
-            "borderRadius": 4,
+            "borderRadius": "50%",
             "boxShadow": undefined,
             "boxSizing": "border-box",
             "color": "rgba(0, 0, 0, 0.87)",
             "fontFamily": "Roboto, sans-serif",
-            "height": 8,
             "muiPrepared": true,
             "opacity": 0.5,
-            "transition": "all 400ms cubic-bezier(0.4, 0.0, 0.2, 1)",
-            "width": 8,
+            "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
           }
         }
       />
@@ -340,16 +323,14 @@ exports[`custom style 1`] = `
           Object {
             "WebkitTapHighlightColor": "rgba(0,0,0,0)",
             "backgroundColor": "#fff",
-            "borderRadius": 4,
+            "borderRadius": "50%",
             "boxShadow": undefined,
             "boxSizing": "border-box",
             "color": "rgba(0, 0, 0, 0.87)",
             "fontFamily": "Roboto, sans-serif",
-            "height": 8,
             "muiPrepared": true,
             "opacity": 0.5,
-            "transition": "all 400ms cubic-bezier(0.4, 0.0, 0.2, 1)",
-            "width": 8,
+            "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
           }
         }
       />
@@ -359,17 +340,16 @@ exports[`custom style 1`] = `
         Object {
           "WebkitTapHighlightColor": "rgba(0,0,0,0)",
           "backgroundColor": "#fff",
-          "borderRadius": 4,
+          "borderRadius": 2,
           "boxShadow": undefined,
           "boxSizing": "border-box",
           "color": "rgba(0, 0, 0, 0.87)",
           "fontFamily": "Roboto, sans-serif",
-          "height": 8,
           "left": 4,
           "marginTop": 4,
           "muiPrepared": true,
           "position": "absolute",
-          "transition": "all 400ms cubic-bezier(0.4, 0.0, 0.2, 1)",
+          "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
           "width": 8,
         }
       }
@@ -413,16 +393,14 @@ exports[`onDotClick handler 1`] = `
           Object {
             "WebkitTapHighlightColor": "rgba(0,0,0,0)",
             "backgroundColor": "#fff",
-            "borderRadius": 4,
+            "borderRadius": "50%",
             "boxShadow": undefined,
             "boxSizing": "border-box",
             "color": "rgba(0, 0, 0, 0.87)",
             "fontFamily": "Roboto, sans-serif",
-            "height": 8,
             "muiPrepared": true,
             "opacity": 0,
-            "transition": "all 400ms cubic-bezier(0.4, 0.0, 0.2, 1)",
-            "width": 8,
+            "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
           }
         }
       />
@@ -446,16 +424,14 @@ exports[`onDotClick handler 1`] = `
           Object {
             "WebkitTapHighlightColor": "rgba(0,0,0,0)",
             "backgroundColor": "#fff",
-            "borderRadius": 4,
+            "borderRadius": "50%",
             "boxShadow": undefined,
             "boxSizing": "border-box",
             "color": "rgba(0, 0, 0, 0.87)",
             "fontFamily": "Roboto, sans-serif",
-            "height": 8,
             "muiPrepared": true,
             "opacity": 0.5,
-            "transition": "all 400ms cubic-bezier(0.4, 0.0, 0.2, 1)",
-            "width": 8,
+            "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
           }
         }
       />
@@ -479,16 +455,14 @@ exports[`onDotClick handler 1`] = `
           Object {
             "WebkitTapHighlightColor": "rgba(0,0,0,0)",
             "backgroundColor": "#fff",
-            "borderRadius": 4,
+            "borderRadius": "50%",
             "boxShadow": undefined,
             "boxSizing": "border-box",
             "color": "rgba(0, 0, 0, 0.87)",
             "fontFamily": "Roboto, sans-serif",
-            "height": 8,
             "muiPrepared": true,
             "opacity": 0.5,
-            "transition": "all 400ms cubic-bezier(0.4, 0.0, 0.2, 1)",
-            "width": 8,
+            "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
           }
         }
       />
@@ -498,17 +472,16 @@ exports[`onDotClick handler 1`] = `
         Object {
           "WebkitTapHighlightColor": "rgba(0,0,0,0)",
           "backgroundColor": "#fff",
-          "borderRadius": 4,
+          "borderRadius": 2,
           "boxShadow": undefined,
           "boxSizing": "border-box",
           "color": "rgba(0, 0, 0, 0.87)",
           "fontFamily": "Roboto, sans-serif",
-          "height": 8,
           "left": 4,
           "marginTop": 4,
           "muiPrepared": true,
           "position": "absolute",
-          "transition": "all 400ms cubic-bezier(0.4, 0.0, 0.2, 1)",
+          "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
           "width": 8,
         }
       }
@@ -552,16 +525,14 @@ exports[`three dots, first is selected 1`] = `
           Object {
             "WebkitTapHighlightColor": "rgba(0,0,0,0)",
             "backgroundColor": "#fff",
-            "borderRadius": 4,
+            "borderRadius": "50%",
             "boxShadow": undefined,
             "boxSizing": "border-box",
             "color": "rgba(0, 0, 0, 0.87)",
             "fontFamily": "Roboto, sans-serif",
-            "height": 8,
             "muiPrepared": true,
             "opacity": 0,
-            "transition": "all 400ms cubic-bezier(0.4, 0.0, 0.2, 1)",
-            "width": 8,
+            "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
           }
         }
       />
@@ -585,16 +556,14 @@ exports[`three dots, first is selected 1`] = `
           Object {
             "WebkitTapHighlightColor": "rgba(0,0,0,0)",
             "backgroundColor": "#fff",
-            "borderRadius": 4,
+            "borderRadius": "50%",
             "boxShadow": undefined,
             "boxSizing": "border-box",
             "color": "rgba(0, 0, 0, 0.87)",
             "fontFamily": "Roboto, sans-serif",
-            "height": 8,
             "muiPrepared": true,
             "opacity": 0.5,
-            "transition": "all 400ms cubic-bezier(0.4, 0.0, 0.2, 1)",
-            "width": 8,
+            "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
           }
         }
       />
@@ -618,16 +587,14 @@ exports[`three dots, first is selected 1`] = `
           Object {
             "WebkitTapHighlightColor": "rgba(0,0,0,0)",
             "backgroundColor": "#fff",
-            "borderRadius": 4,
+            "borderRadius": "50%",
             "boxShadow": undefined,
             "boxSizing": "border-box",
             "color": "rgba(0, 0, 0, 0.87)",
             "fontFamily": "Roboto, sans-serif",
-            "height": 8,
             "muiPrepared": true,
             "opacity": 0.5,
-            "transition": "all 400ms cubic-bezier(0.4, 0.0, 0.2, 1)",
-            "width": 8,
+            "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
           }
         }
       />
@@ -637,17 +604,16 @@ exports[`three dots, first is selected 1`] = `
         Object {
           "WebkitTapHighlightColor": "rgba(0,0,0,0)",
           "backgroundColor": "#fff",
-          "borderRadius": 4,
+          "borderRadius": 2,
           "boxShadow": undefined,
           "boxSizing": "border-box",
           "color": "rgba(0, 0, 0, 0.87)",
           "fontFamily": "Roboto, sans-serif",
-          "height": 8,
           "left": 4,
           "marginTop": 4,
           "muiPrepared": true,
           "position": "absolute",
-          "transition": "all 400ms cubic-bezier(0.4, 0.0, 0.2, 1)",
+          "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
           "width": 8,
         }
       }

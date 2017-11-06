@@ -22,17 +22,11 @@ const styles = {
   }
 }
 
-const prepareDotStyle = dotColor => ({
-  ...styles.dot,
-  backgroundColor: dotColor
-})
-
 export default class Dots extends Component {
   constructor (props) {
     super(props)
     this.state = {
-      previousIndex: props.index || 0,
-      dotStyle: prepareDotStyle(props.dotColor)
+      previousIndex: props.index || 0
     }
   }
 
@@ -43,10 +37,6 @@ export default class Dots extends Component {
         this.timeout = null
         this.setState({previousIndex: index})
       }, 450)
-    }
-
-    if (dotColor !== this.props.dotColor) {
-      this.setState({dotStyle: prepareDotStyle(dotColor)})
     }
   }
 
@@ -64,7 +54,7 @@ export default class Dots extends Component {
 
   render () {
     const {count, index, style = {}, onDotClick, dotColor, ...other} = this.props
-    const {previousIndex, dotStyle} = this.state
+    const {previousIndex} = this.state
 
     return (
       <div style={{...style, width: count * 16}} {...other}>
@@ -83,7 +73,7 @@ export default class Dots extends Component {
                 circle
                 zDepth={0}
                 style={{
-                  ...dotStyle,
+                  backgroundColor: dotColor,
                   opacity: i >= Math.min(previousIndex, index) && i <= Math.max(previousIndex, index) ? 0 : 0.5
                 }}
               />
@@ -92,7 +82,7 @@ export default class Dots extends Component {
           <Paper
             zDepth={0}
             style={{
-              ...dotStyle,
+              backgroundColor: dotColor,
               position: 'absolute',
               marginTop: 4,
               left: Math.min(previousIndex, index) * 16 + 4,
