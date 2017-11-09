@@ -17,7 +17,6 @@ const styles = {
   dot: {
     width: 8,
     height: 8,
-    background: '#fff',
     transition: 'all 400ms cubic-bezier(0.4, 0.0, 0.2, 1)',
     borderRadius: 4
   }
@@ -31,7 +30,7 @@ export default class Dots extends Component {
     }
   }
 
-  componentWillReceiveProps ({index}) {
+  componentWillReceiveProps ({index, dotColor}) {
     if (index !== this.props.index) {
       this.setState({previousIndex: this.props.index})
       this.timeout = setTimeout(() => {
@@ -54,7 +53,7 @@ export default class Dots extends Component {
   }
 
   render () {
-    const {count, index, style = {}, onDotClick, ...other} = this.props
+    const {count, index, style = {}, onDotClick, dotColor, ...other} = this.props
     const {previousIndex} = this.state
 
     return (
@@ -75,6 +74,7 @@ export default class Dots extends Component {
                 zDepth={0}
                 style={{
                   ...styles.dot,
+                  backgroundColor: dotColor,
                   opacity: i >= Math.min(previousIndex, index) && i <= Math.max(previousIndex, index) ? 0 : 0.5
                 }}
               />
@@ -84,6 +84,7 @@ export default class Dots extends Component {
             zDepth={0}
             style={{
               ...styles.dot,
+              backgroundColor: dotColor,
               position: 'absolute',
               marginTop: 4,
               left: Math.min(previousIndex, index) * 16 + 4,
@@ -100,5 +101,10 @@ Dots.propTypes = {
   count: PropTypes.number.isRequired,
   index: PropTypes.number.isRequired,
   style: PropTypes.object,
+  dotColor: PropTypes.string,
   onDotClick: PropTypes.func
+}
+
+Dots.defaultProps = {
+  dotColor: '#fff'
 }

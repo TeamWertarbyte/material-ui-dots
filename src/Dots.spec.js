@@ -48,3 +48,14 @@ test('onDotClick handler', () => {
   )
   expect(tree).toMatchSnapshot()
 })
+
+test('custom dot color', () => {
+  const tree = renderer.create(
+    <ThemedDots
+      count={4}
+      index={0}
+      dotColor='red'
+    />
+  )
+  expect(tree).toMatchSnapshot()
+})
