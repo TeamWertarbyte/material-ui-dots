@@ -59,3 +59,14 @@ test('custom dot color', () => {
   )
   expect(tree).toMatchSnapshot()
 })
+
+test('custom dot size', () => {
+  const tree = renderer.create(
+    <ThemedDots
+      count={4}
+      index={0}
+      dotSize={12}
+    />
+  )
+  expect(tree).toMatchSnapshot()
+})
