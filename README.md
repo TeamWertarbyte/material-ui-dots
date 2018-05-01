@@ -33,6 +33,8 @@ class Demo extends React.Component {
       <Dots
         index={this.state.index}
         count={5}
+        dotColor='red'
+        dotSize={12}
         onDotClick={(index) => this.setState({ index })}
       />
     )
