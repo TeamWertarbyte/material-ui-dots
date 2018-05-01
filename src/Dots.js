@@ -70,8 +70,8 @@ export default class Dots extends Component {
               onClick={(event) => this.handleDotClick(i, event)}
             >
               <Paper
-                circle
-                zDepth={0}
+                square={false}
+                elevation={0}
                 style={{
                   ...styles.dot,
                   backgroundColor: dotColor,
@@ -81,7 +81,7 @@ export default class Dots extends Component {
             </div>
           ))}
           <Paper
-            zDepth={0}
+            elevation={0}
             style={{
               ...styles.dot,
               backgroundColor: dotColor,
