@@ -1,14 +1,14 @@
 /* eslint-env jest */
 import React from 'react'
 import renderer from 'react-test-renderer'
-import lightBaseTheme from 'material-ui/styles/baseThemes/lightBaseTheme'
-import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
-import getMuiTheme from 'material-ui/styles/getMuiTheme'
+import { MuiThemeProvider, createMuiTheme } from 'material-ui/styles'
 import Dots from './Dots'
+
+const theme = createMuiTheme()
 
 function themed (Component) {
   return (props) => (
-    <MuiThemeProvider muiTheme={getMuiTheme(lightBaseTheme)}>
+    <MuiThemeProvider theme={theme}>
       <Component {...props} />
     </MuiThemeProvider>
   )

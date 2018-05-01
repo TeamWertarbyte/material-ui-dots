@@ -1,6 +1,6 @@
 {
   "name": "material-ui-dots",
-  "version": "1.3.1",
+  "version": "1.3.0",
   "description": "Just some animated dots for pagination.",
   "main": "lib/Dots.js",
   "scripts": {
@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/TeamWertarbyte/material-ui-dots#readme",
   "dependencies": {
-    "prop-types": "^15.5.10"
+    "prop-types": "^16.3.0"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
