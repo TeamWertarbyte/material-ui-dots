@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/TeamWertarbyte/material-ui-dots#readme",
   "dependencies": {
-    "prop-types": "^16.3.0"
+    "prop-types": "^15.6.0"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
