@@ -1,14 +1,14 @@
 /* eslint-env jest */
 import React from 'react'
 import renderer from 'react-test-renderer'
-import lightBaseTheme from 'material-ui/styles/baseThemes/lightBaseTheme'
-import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
-import getMuiTheme from 'material-ui/styles/getMuiTheme'
+import { MuiThemeProvider, createMuiTheme } from 'material-ui/styles'
 import Dots from './Dots'
+
+const theme = createMuiTheme()
 
 function themed (Component) {
   return (props) => (
-    <MuiThemeProvider muiTheme={getMuiTheme(lightBaseTheme)}>
+    <MuiThemeProvider theme={theme}>
       <Component {...props} />
     </MuiThemeProvider>
   )
@@ -55,6 +55,17 @@ test('custom dot color', () => {
       count={4}
       index={0}
       dotColor='red'
+    />
+  )
+  expect(tree).toMatchSnapshot()
+})
+
+test('custom dot size', () => {
+  const tree = renderer.create(
+    <ThemedDots
+      count={4}
+      index={0}
+      dotSize={12}
     />
   )
   expect(tree).toMatchSnapshot()
