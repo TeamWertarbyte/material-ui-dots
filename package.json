@@ -1,6 +1,6 @@
 {
   "name": "material-ui-dots",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "description": "Just some animated dots for pagination.",
   "main": "lib/Dots.js",
   "scripts": {
@@ -33,6 +33,7 @@
     "babel-cli": "^6.24.1",
     "babel-core": "^6.24.1",
     "babel-eslint": "^7.2.3",
+    "babel-preset-env": "^1.7.0",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
