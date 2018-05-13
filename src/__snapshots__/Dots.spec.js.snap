@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Dots /> matches the snapshot 1`] = `
-<withStyles(Dots)
+<WithStyles(Dots)
   count={3}
   index={0}
 >
@@ -37,7 +37,7 @@ exports[`<Dots /> matches the snapshot 1`] = `
             }
           }
         >
-          <withStyles(Paper)
+          <WithStyles(Paper)
             className="Dots-dot-3"
             elevation={0}
             style={
@@ -50,33 +50,33 @@ exports[`<Dots /> matches the snapshot 1`] = `
               className="Dots-dot-3"
               classes={
                 Object {
+                  "elevation0": "MuiPaper-elevation0-6",
+                  "elevation1": "MuiPaper-elevation1-7",
+                  "elevation10": "MuiPaper-elevation10-16",
+                  "elevation11": "MuiPaper-elevation11-17",
+                  "elevation12": "MuiPaper-elevation12-18",
+                  "elevation13": "MuiPaper-elevation13-19",
+                  "elevation14": "MuiPaper-elevation14-20",
+                  "elevation15": "MuiPaper-elevation15-21",
+                  "elevation16": "MuiPaper-elevation16-22",
+                  "elevation17": "MuiPaper-elevation17-23",
+                  "elevation18": "MuiPaper-elevation18-24",
+                  "elevation19": "MuiPaper-elevation19-25",
+                  "elevation2": "MuiPaper-elevation2-8",
+                  "elevation20": "MuiPaper-elevation20-26",
+                  "elevation21": "MuiPaper-elevation21-27",
+                  "elevation22": "MuiPaper-elevation22-28",
+                  "elevation23": "MuiPaper-elevation23-29",
+                  "elevation24": "MuiPaper-elevation24-30",
+                  "elevation3": "MuiPaper-elevation3-9",
+                  "elevation4": "MuiPaper-elevation4-10",
+                  "elevation5": "MuiPaper-elevation5-11",
+                  "elevation6": "MuiPaper-elevation6-12",
+                  "elevation7": "MuiPaper-elevation7-13",
+                  "elevation8": "MuiPaper-elevation8-14",
+                  "elevation9": "MuiPaper-elevation9-15",
                   "root": "MuiPaper-root-4",
                   "rounded": "MuiPaper-rounded-5",
-                  "shadow0": "MuiPaper-shadow0-6",
-                  "shadow1": "MuiPaper-shadow1-7",
-                  "shadow10": "MuiPaper-shadow10-16",
-                  "shadow11": "MuiPaper-shadow11-17",
-                  "shadow12": "MuiPaper-shadow12-18",
-                  "shadow13": "MuiPaper-shadow13-19",
-                  "shadow14": "MuiPaper-shadow14-20",
-                  "shadow15": "MuiPaper-shadow15-21",
-                  "shadow16": "MuiPaper-shadow16-22",
-                  "shadow17": "MuiPaper-shadow17-23",
-                  "shadow18": "MuiPaper-shadow18-24",
-                  "shadow19": "MuiPaper-shadow19-25",
-                  "shadow2": "MuiPaper-shadow2-8",
-                  "shadow20": "MuiPaper-shadow20-26",
-                  "shadow21": "MuiPaper-shadow21-27",
-                  "shadow22": "MuiPaper-shadow22-28",
-                  "shadow23": "MuiPaper-shadow23-29",
-                  "shadow24": "MuiPaper-shadow24-30",
-                  "shadow3": "MuiPaper-shadow3-9",
-                  "shadow4": "MuiPaper-shadow4-10",
-                  "shadow5": "MuiPaper-shadow5-11",
-                  "shadow6": "MuiPaper-shadow6-12",
-                  "shadow7": "MuiPaper-shadow7-13",
-                  "shadow8": "MuiPaper-shadow8-14",
-                  "shadow9": "MuiPaper-shadow9-15",
                 }
               }
               component="div"
@@ -89,7 +89,7 @@ exports[`<Dots /> matches the snapshot 1`] = `
               }
             >
               <div
-                className="MuiPaper-root-4 MuiPaper-shadow0-6 MuiPaper-rounded-5 Dots-dot-3"
+                className="MuiPaper-root-4 MuiPaper-elevation0-6 MuiPaper-rounded-5 Dots-dot-3"
                 style={
                   Object {
                     "opacity": 0,
@@ -97,7 +97,7 @@ exports[`<Dots /> matches the snapshot 1`] = `
                 }
               />
             </Paper>
-          </withStyles(Paper)>
+          </WithStyles(Paper)>
         </div>
         <div
           className="Dots-dotOuter-2"
@@ -110,7 +110,7 @@ exports[`<Dots /> matches the snapshot 1`] = `
             }
           }
         >
-          <withStyles(Paper)
+          <WithStyles(Paper)
             className="Dots-dot-3"
             elevation={0}
             style={
@@ -123,33 +123,33 @@ exports[`<Dots /> matches the snapshot 1`] = `
               className="Dots-dot-3"
               classes={
                 Object {
+                  "elevation0": "MuiPaper-elevation0-6",
+                  "elevation1": "MuiPaper-elevation1-7",
+                  "elevation10": "MuiPaper-elevation10-16",
+                  "elevation11": "MuiPaper-elevation11-17",
+                  "elevation12": "MuiPaper-elevation12-18",
+                  "elevation13": "MuiPaper-elevation13-19",
+                  "elevation14": "MuiPaper-elevation14-20",
+                  "elevation15": "MuiPaper-elevation15-21",
+                  "elevation16": "MuiPaper-elevation16-22",
+                  "elevation17": "MuiPaper-elevation17-23",
+                  "elevation18": "MuiPaper-elevation18-24",
+                  "elevation19": "MuiPaper-elevation19-25",
+                  "elevation2": "MuiPaper-elevation2-8",
+                  "elevation20": "MuiPaper-elevation20-26",
+                  "elevation21": "MuiPaper-elevation21-27",
+                  "elevation22": "MuiPaper-elevation22-28",
+                  "elevation23": "MuiPaper-elevation23-29",
+                  "elevation24": "MuiPaper-elevation24-30",
+                  "elevation3": "MuiPaper-elevation3-9",
+                  "elevation4": "MuiPaper-elevation4-10",
+                  "elevation5": "MuiPaper-elevation5-11",
+                  "elevation6": "MuiPaper-elevation6-12",
+                  "elevation7": "MuiPaper-elevation7-13",
+                  "elevation8": "MuiPaper-elevation8-14",
+                  "elevation9": "MuiPaper-elevation9-15",
                   "root": "MuiPaper-root-4",
                   "rounded": "MuiPaper-rounded-5",
-                  "shadow0": "MuiPaper-shadow0-6",
-                  "shadow1": "MuiPaper-shadow1-7",
-                  "shadow10": "MuiPaper-shadow10-16",
-                  "shadow11": "MuiPaper-shadow11-17",
-                  "shadow12": "MuiPaper-shadow12-18",
-                  "shadow13": "MuiPaper-shadow13-19",
-                  "shadow14": "MuiPaper-shadow14-20",
-                  "shadow15": "MuiPaper-shadow15-21",
-                  "shadow16": "MuiPaper-shadow16-22",
-                  "shadow17": "MuiPaper-shadow17-23",
-                  "shadow18": "MuiPaper-shadow18-24",
-                  "shadow19": "MuiPaper-shadow19-25",
-                  "shadow2": "MuiPaper-shadow2-8",
-                  "shadow20": "MuiPaper-shadow20-26",
-                  "shadow21": "MuiPaper-shadow21-27",
-                  "shadow22": "MuiPaper-shadow22-28",
-                  "shadow23": "MuiPaper-shadow23-29",
-                  "shadow24": "MuiPaper-shadow24-30",
-                  "shadow3": "MuiPaper-shadow3-9",
-                  "shadow4": "MuiPaper-shadow4-10",
-                  "shadow5": "MuiPaper-shadow5-11",
-                  "shadow6": "MuiPaper-shadow6-12",
-                  "shadow7": "MuiPaper-shadow7-13",
-                  "shadow8": "MuiPaper-shadow8-14",
-                  "shadow9": "MuiPaper-shadow9-15",
                 }
               }
               component="div"
@@ -162,7 +162,7 @@ exports[`<Dots /> matches the snapshot 1`] = `
               }
             >
               <div
-                className="MuiPaper-root-4 MuiPaper-shadow0-6 MuiPaper-rounded-5 Dots-dot-3"
+                className="MuiPaper-root-4 MuiPaper-elevation0-6 MuiPaper-rounded-5 Dots-dot-3"
                 style={
                   Object {
                     "opacity": 0.5,
@@ -170,7 +170,7 @@ exports[`<Dots /> matches the snapshot 1`] = `
                 }
               />
             </Paper>
-          </withStyles(Paper)>
+          </WithStyles(Paper)>
         </div>
         <div
           className="Dots-dotOuter-2"
@@ -183,7 +183,7 @@ exports[`<Dots /> matches the snapshot 1`] = `
             }
           }
         >
-          <withStyles(Paper)
+          <WithStyles(Paper)
             className="Dots-dot-3"
             elevation={0}
             style={
@@ -196,33 +196,33 @@ exports[`<Dots /> matches the snapshot 1`] = `
               className="Dots-dot-3"
               classes={
                 Object {
+                  "elevation0": "MuiPaper-elevation0-6",
+                  "elevation1": "MuiPaper-elevation1-7",
+                  "elevation10": "MuiPaper-elevation10-16",
+                  "elevation11": "MuiPaper-elevation11-17",
+                  "elevation12": "MuiPaper-elevation12-18",
+                  "elevation13": "MuiPaper-elevation13-19",
+                  "elevation14": "MuiPaper-elevation14-20",
+                  "elevation15": "MuiPaper-elevation15-21",
+                  "elevation16": "MuiPaper-elevation16-22",
+                  "elevation17": "MuiPaper-elevation17-23",
+                  "elevation18": "MuiPaper-elevation18-24",
+                  "elevation19": "MuiPaper-elevation19-25",
+                  "elevation2": "MuiPaper-elevation2-8",
+                  "elevation20": "MuiPaper-elevation20-26",
+                  "elevation21": "MuiPaper-elevation21-27",
+                  "elevation22": "MuiPaper-elevation22-28",
+                  "elevation23": "MuiPaper-elevation23-29",
+                  "elevation24": "MuiPaper-elevation24-30",
+                  "elevation3": "MuiPaper-elevation3-9",
+                  "elevation4": "MuiPaper-elevation4-10",
+                  "elevation5": "MuiPaper-elevation5-11",
+                  "elevation6": "MuiPaper-elevation6-12",
+                  "elevation7": "MuiPaper-elevation7-13",
+                  "elevation8": "MuiPaper-elevation8-14",
+                  "elevation9": "MuiPaper-elevation9-15",
                   "root": "MuiPaper-root-4",
                   "rounded": "MuiPaper-rounded-5",
-                  "shadow0": "MuiPaper-shadow0-6",
-                  "shadow1": "MuiPaper-shadow1-7",
-                  "shadow10": "MuiPaper-shadow10-16",
-                  "shadow11": "MuiPaper-shadow11-17",
-                  "shadow12": "MuiPaper-shadow12-18",
-                  "shadow13": "MuiPaper-shadow13-19",
-                  "shadow14": "MuiPaper-shadow14-20",
-                  "shadow15": "MuiPaper-shadow15-21",
-                  "shadow16": "MuiPaper-shadow16-22",
-                  "shadow17": "MuiPaper-shadow17-23",
-                  "shadow18": "MuiPaper-shadow18-24",
-                  "shadow19": "MuiPaper-shadow19-25",
-                  "shadow2": "MuiPaper-shadow2-8",
-                  "shadow20": "MuiPaper-shadow20-26",
-                  "shadow21": "MuiPaper-shadow21-27",
-                  "shadow22": "MuiPaper-shadow22-28",
-                  "shadow23": "MuiPaper-shadow23-29",
-                  "shadow24": "MuiPaper-shadow24-30",
-                  "shadow3": "MuiPaper-shadow3-9",
-                  "shadow4": "MuiPaper-shadow4-10",
-                  "shadow5": "MuiPaper-shadow5-11",
-                  "shadow6": "MuiPaper-shadow6-12",
-                  "shadow7": "MuiPaper-shadow7-13",
-                  "shadow8": "MuiPaper-shadow8-14",
-                  "shadow9": "MuiPaper-shadow9-15",
                 }
               }
               component="div"
@@ -235,7 +235,7 @@ exports[`<Dots /> matches the snapshot 1`] = `
               }
             >
               <div
-                className="MuiPaper-root-4 MuiPaper-shadow0-6 MuiPaper-rounded-5 Dots-dot-3"
+                className="MuiPaper-root-4 MuiPaper-elevation0-6 MuiPaper-rounded-5 Dots-dot-3"
                 style={
                   Object {
                     "opacity": 0.5,
@@ -243,9 +243,9 @@ exports[`<Dots /> matches the snapshot 1`] = `
                 }
               />
             </Paper>
-          </withStyles(Paper)>
+          </WithStyles(Paper)>
         </div>
-        <withStyles(Paper)
+        <WithStyles(Paper)
           className="Dots-dot-3"
           elevation={0}
           style={
@@ -261,33 +261,33 @@ exports[`<Dots /> matches the snapshot 1`] = `
             className="Dots-dot-3"
             classes={
               Object {
+                "elevation0": "MuiPaper-elevation0-6",
+                "elevation1": "MuiPaper-elevation1-7",
+                "elevation10": "MuiPaper-elevation10-16",
+                "elevation11": "MuiPaper-elevation11-17",
+                "elevation12": "MuiPaper-elevation12-18",
+                "elevation13": "MuiPaper-elevation13-19",
+                "elevation14": "MuiPaper-elevation14-20",
+                "elevation15": "MuiPaper-elevation15-21",
+                "elevation16": "MuiPaper-elevation16-22",
+                "elevation17": "MuiPaper-elevation17-23",
+                "elevation18": "MuiPaper-elevation18-24",
+                "elevation19": "MuiPaper-elevation19-25",
+                "elevation2": "MuiPaper-elevation2-8",
+                "elevation20": "MuiPaper-elevation20-26",
+                "elevation21": "MuiPaper-elevation21-27",
+                "elevation22": "MuiPaper-elevation22-28",
+                "elevation23": "MuiPaper-elevation23-29",
+                "elevation24": "MuiPaper-elevation24-30",
+                "elevation3": "MuiPaper-elevation3-9",
+                "elevation4": "MuiPaper-elevation4-10",
+                "elevation5": "MuiPaper-elevation5-11",
+                "elevation6": "MuiPaper-elevation6-12",
+                "elevation7": "MuiPaper-elevation7-13",
+                "elevation8": "MuiPaper-elevation8-14",
+                "elevation9": "MuiPaper-elevation9-15",
                 "root": "MuiPaper-root-4",
                 "rounded": "MuiPaper-rounded-5",
-                "shadow0": "MuiPaper-shadow0-6",
-                "shadow1": "MuiPaper-shadow1-7",
-                "shadow10": "MuiPaper-shadow10-16",
-                "shadow11": "MuiPaper-shadow11-17",
-                "shadow12": "MuiPaper-shadow12-18",
-                "shadow13": "MuiPaper-shadow13-19",
-                "shadow14": "MuiPaper-shadow14-20",
-                "shadow15": "MuiPaper-shadow15-21",
-                "shadow16": "MuiPaper-shadow16-22",
-                "shadow17": "MuiPaper-shadow17-23",
-                "shadow18": "MuiPaper-shadow18-24",
-                "shadow19": "MuiPaper-shadow19-25",
-                "shadow2": "MuiPaper-shadow2-8",
-                "shadow20": "MuiPaper-shadow20-26",
-                "shadow21": "MuiPaper-shadow21-27",
-                "shadow22": "MuiPaper-shadow22-28",
-                "shadow23": "MuiPaper-shadow23-29",
-                "shadow24": "MuiPaper-shadow24-30",
-                "shadow3": "MuiPaper-shadow3-9",
-                "shadow4": "MuiPaper-shadow4-10",
-                "shadow5": "MuiPaper-shadow5-11",
-                "shadow6": "MuiPaper-shadow6-12",
-                "shadow7": "MuiPaper-shadow7-13",
-                "shadow8": "MuiPaper-shadow8-14",
-                "shadow9": "MuiPaper-shadow9-15",
               }
             }
             component="div"
@@ -303,7 +303,7 @@ exports[`<Dots /> matches the snapshot 1`] = `
             }
           >
             <div
-              className="MuiPaper-root-4 MuiPaper-shadow0-6 MuiPaper-rounded-5 Dots-dot-3"
+              className="MuiPaper-root-4 MuiPaper-elevation0-6 MuiPaper-rounded-5 Dots-dot-3"
               style={
                 Object {
                   "left": 4,
@@ -314,9 +314,9 @@ exports[`<Dots /> matches the snapshot 1`] = `
               }
             />
           </Paper>
-        </withStyles(Paper)>
+        </WithStyles(Paper)>
       </div>
     </div>
   </Dots>
-</withStyles(Dots)>
+</WithStyles(Dots)>
 `;
