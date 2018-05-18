@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-import Paper from 'material-ui/Paper'
-import withStyles from 'material-ui/styles/withStyles'
+import Paper from '@material-ui/core/Paper'
+import withStyles from '@material-ui/core/styles/withStyles'
 
 const styles = {
   dots: {
