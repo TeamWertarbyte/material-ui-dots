@@ -32,13 +32,13 @@ class Dots extends Component {
     }
   }
 
-  componentWillReceiveProps ({index}) {
+  componentDidUpdate ({index}) {
     if (index !== this.props.index) {
-      this.setState({previousIndex: this.props.index})
+      this.setState({previousIndex: index})
       this.timeout = setTimeout(() => {
         this.timeout = null
-        this.setState({previousIndex: index})
-      }, 450)
+        this.setState({previousIndex: this.props.index})
+      }, 400)
     }
   }
 
