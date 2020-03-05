@@ -1,6 +1,7 @@
 /* eslint-env jest */
 import React from 'react'
 import { mount } from 'enzyme'
+import { unwrap } from '@material-ui/core/test-utils'
 import Dots from './Dots'
 
 jest.useFakeTimers()
@@ -59,9 +60,9 @@ describe('<Dots />', () => {
   })
 
   it('does not use the animation timer when the index is not changed', () => {
-    setTimeout.mockReset()
-    const tree = mount(<Dots count={5} index={0} />)
+    const RawDots = unwrap(Dots)
+    const tree = mount(<RawDots count={5} index={0} classes={{}} />)
     tree.setProps({ count: 3 }) // starts the animation (and the timeout)
-    expect(setTimeout.mock.calls.length).toBe(0)
+    expect(tree.instance().timeout).toBeUndefined()
   })
 })
