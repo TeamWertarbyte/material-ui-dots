@@ -1,6 +1,6 @@
 {
   "name": "material-ui-dots",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Just some animated dots for pagination.",
   "main": "lib/Dots.js",
   "files": [
