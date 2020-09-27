@@ -32,12 +32,12 @@ class Dots extends Component {
     }
   }
 
-  componentDidUpdate ({index}) {
+  componentDidUpdate ({ index }) {
     if (index !== this.props.index) {
-      this.setState({previousIndex: index})
+      this.setState({ previousIndex: index })
       this.timeout = setTimeout(() => {
         this.timeout = null
-        this.setState({previousIndex: this.props.index})
+        this.setState({ previousIndex: this.props.index })
       }, 400)
     }
   }
@@ -55,11 +55,11 @@ class Dots extends Component {
   }
 
   render () {
-    const {classes, count, index, style = {}, onDotClick, ...other} = this.props
-    const {previousIndex} = this.state
+    const { classes, count, index, style = {}, onDotClick, ...other } = this.props
+    const { previousIndex } = this.state
 
     return (
-      <div style={{...style, width: count * 16}} {...other}>
+      <div style={{ ...style, width: count * 16 }} {...other}>
         <div className={classes.dots}>
           {[...Array(count).keys()].map((i) => (
             <div

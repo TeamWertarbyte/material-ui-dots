@@ -37,7 +37,7 @@ exports[`<Dots /> matches the snapshot 1`] = `
             }
           }
         >
-          <WithStyles(Paper)
+          <WithStyles(ForwardRef(Paper))
             className="Dots-dot-3"
             elevation={0}
             style={
@@ -46,42 +46,41 @@ exports[`<Dots /> matches the snapshot 1`] = `
               }
             }
           >
-            <Paper
+            <ForwardRef(Paper)
               className="Dots-dot-3"
               classes={
                 Object {
-                  "elevation0": "MuiPaper-elevation0-6",
-                  "elevation1": "MuiPaper-elevation1-7",
-                  "elevation10": "MuiPaper-elevation10-16",
-                  "elevation11": "MuiPaper-elevation11-17",
-                  "elevation12": "MuiPaper-elevation12-18",
-                  "elevation13": "MuiPaper-elevation13-19",
-                  "elevation14": "MuiPaper-elevation14-20",
-                  "elevation15": "MuiPaper-elevation15-21",
-                  "elevation16": "MuiPaper-elevation16-22",
-                  "elevation17": "MuiPaper-elevation17-23",
-                  "elevation18": "MuiPaper-elevation18-24",
-                  "elevation19": "MuiPaper-elevation19-25",
-                  "elevation2": "MuiPaper-elevation2-8",
-                  "elevation20": "MuiPaper-elevation20-26",
-                  "elevation21": "MuiPaper-elevation21-27",
-                  "elevation22": "MuiPaper-elevation22-28",
-                  "elevation23": "MuiPaper-elevation23-29",
-                  "elevation24": "MuiPaper-elevation24-30",
-                  "elevation3": "MuiPaper-elevation3-9",
-                  "elevation4": "MuiPaper-elevation4-10",
-                  "elevation5": "MuiPaper-elevation5-11",
-                  "elevation6": "MuiPaper-elevation6-12",
-                  "elevation7": "MuiPaper-elevation7-13",
-                  "elevation8": "MuiPaper-elevation8-14",
-                  "elevation9": "MuiPaper-elevation9-15",
-                  "root": "MuiPaper-root-4",
-                  "rounded": "MuiPaper-rounded-5",
+                  "elevation0": "MuiPaper-elevation0",
+                  "elevation1": "MuiPaper-elevation1",
+                  "elevation10": "MuiPaper-elevation10",
+                  "elevation11": "MuiPaper-elevation11",
+                  "elevation12": "MuiPaper-elevation12",
+                  "elevation13": "MuiPaper-elevation13",
+                  "elevation14": "MuiPaper-elevation14",
+                  "elevation15": "MuiPaper-elevation15",
+                  "elevation16": "MuiPaper-elevation16",
+                  "elevation17": "MuiPaper-elevation17",
+                  "elevation18": "MuiPaper-elevation18",
+                  "elevation19": "MuiPaper-elevation19",
+                  "elevation2": "MuiPaper-elevation2",
+                  "elevation20": "MuiPaper-elevation20",
+                  "elevation21": "MuiPaper-elevation21",
+                  "elevation22": "MuiPaper-elevation22",
+                  "elevation23": "MuiPaper-elevation23",
+                  "elevation24": "MuiPaper-elevation24",
+                  "elevation3": "MuiPaper-elevation3",
+                  "elevation4": "MuiPaper-elevation4",
+                  "elevation5": "MuiPaper-elevation5",
+                  "elevation6": "MuiPaper-elevation6",
+                  "elevation7": "MuiPaper-elevation7",
+                  "elevation8": "MuiPaper-elevation8",
+                  "elevation9": "MuiPaper-elevation9",
+                  "outlined": "MuiPaper-outlined",
+                  "root": "MuiPaper-root",
+                  "rounded": "MuiPaper-rounded",
                 }
               }
-              component="div"
               elevation={0}
-              square={false}
               style={
                 Object {
                   "opacity": 0,
@@ -89,15 +88,15 @@ exports[`<Dots /> matches the snapshot 1`] = `
               }
             >
               <div
-                className="MuiPaper-root-4 MuiPaper-elevation0-6 MuiPaper-rounded-5 Dots-dot-3"
+                className="MuiPaper-root Dots-dot-3 MuiPaper-elevation0 MuiPaper-rounded"
                 style={
                   Object {
                     "opacity": 0,
                   }
                 }
               />
-            </Paper>
-          </WithStyles(Paper)>
+            </ForwardRef(Paper)>
+          </WithStyles(ForwardRef(Paper))>
         </div>
         <div
           className="Dots-dotOuter-2"
@@ -110,7 +109,7 @@ exports[`<Dots /> matches the snapshot 1`] = `
             }
           }
         >
-          <WithStyles(Paper)
+          <WithStyles(ForwardRef(Paper))
             className="Dots-dot-3"
             elevation={0}
             style={
@@ -119,42 +118,41 @@ exports[`<Dots /> matches the snapshot 1`] = `
               }
             }
           >
-            <Paper
+            <ForwardRef(Paper)
               className="Dots-dot-3"
               classes={
                 Object {
-                  "elevation0": "MuiPaper-elevation0-6",
-                  "elevation1": "MuiPaper-elevation1-7",
-                  "elevation10": "MuiPaper-elevation10-16",
-                  "elevation11": "MuiPaper-elevation11-17",
-                  "elevation12": "MuiPaper-elevation12-18",
-                  "elevation13": "MuiPaper-elevation13-19",
-                  "elevation14": "MuiPaper-elevation14-20",
-                  "elevation15": "MuiPaper-elevation15-21",
-                  "elevation16": "MuiPaper-elevation16-22",
-                  "elevation17": "MuiPaper-elevation17-23",
-                  "elevation18": "MuiPaper-elevation18-24",
-                  "elevation19": "MuiPaper-elevation19-25",
-                  "elevation2": "MuiPaper-elevation2-8",
-                  "elevation20": "MuiPaper-elevation20-26",
-                  "elevation21": "MuiPaper-elevation21-27",
-                  "elevation22": "MuiPaper-elevation22-28",
-                  "elevation23": "MuiPaper-elevation23-29",
-                  "elevation24": "MuiPaper-elevation24-30",
-                  "elevation3": "MuiPaper-elevation3-9",
-                  "elevation4": "MuiPaper-elevation4-10",
-                  "elevation5": "MuiPaper-elevation5-11",
-                  "elevation6": "MuiPaper-elevation6-12",
-                  "elevation7": "MuiPaper-elevation7-13",
-                  "elevation8": "MuiPaper-elevation8-14",
-                  "elevation9": "MuiPaper-elevation9-15",
-                  "root": "MuiPaper-root-4",
-                  "rounded": "MuiPaper-rounded-5",
+                  "elevation0": "MuiPaper-elevation0",
+                  "elevation1": "MuiPaper-elevation1",
+                  "elevation10": "MuiPaper-elevation10",
+                  "elevation11": "MuiPaper-elevation11",
+                  "elevation12": "MuiPaper-elevation12",
+                  "elevation13": "MuiPaper-elevation13",
+                  "elevation14": "MuiPaper-elevation14",
+                  "elevation15": "MuiPaper-elevation15",
+                  "elevation16": "MuiPaper-elevation16",
+                  "elevation17": "MuiPaper-elevation17",
+                  "elevation18": "MuiPaper-elevation18",
+                  "elevation19": "MuiPaper-elevation19",
+                  "elevation2": "MuiPaper-elevation2",
+                  "elevation20": "MuiPaper-elevation20",
+                  "elevation21": "MuiPaper-elevation21",
+                  "elevation22": "MuiPaper-elevation22",
+                  "elevation23": "MuiPaper-elevation23",
+                  "elevation24": "MuiPaper-elevation24",
+                  "elevation3": "MuiPaper-elevation3",
+                  "elevation4": "MuiPaper-elevation4",
+                  "elevation5": "MuiPaper-elevation5",
+                  "elevation6": "MuiPaper-elevation6",
+                  "elevation7": "MuiPaper-elevation7",
+                  "elevation8": "MuiPaper-elevation8",
+                  "elevation9": "MuiPaper-elevation9",
+                  "outlined": "MuiPaper-outlined",
+                  "root": "MuiPaper-root",
+                  "rounded": "MuiPaper-rounded",
                 }
               }
-              component="div"
               elevation={0}
-              square={false}
               style={
                 Object {
                   "opacity": 0.5,
@@ -162,15 +160,15 @@ exports[`<Dots /> matches the snapshot 1`] = `
               }
             >
               <div
-                className="MuiPaper-root-4 MuiPaper-elevation0-6 MuiPaper-rounded-5 Dots-dot-3"
+                className="MuiPaper-root Dots-dot-3 MuiPaper-elevation0 MuiPaper-rounded"
                 style={
                   Object {
                     "opacity": 0.5,
                   }
                 }
               />
-            </Paper>
-          </WithStyles(Paper)>
+            </ForwardRef(Paper)>
+          </WithStyles(ForwardRef(Paper))>
         </div>
         <div
           className="Dots-dotOuter-2"
@@ -183,7 +181,7 @@ exports[`<Dots /> matches the snapshot 1`] = `
             }
           }
         >
-          <WithStyles(Paper)
+          <WithStyles(ForwardRef(Paper))
             className="Dots-dot-3"
             elevation={0}
             style={
@@ -192,42 +190,41 @@ exports[`<Dots /> matches the snapshot 1`] = `
               }
             }
           >
-            <Paper
+            <ForwardRef(Paper)
               className="Dots-dot-3"
               classes={
                 Object {
-                  "elevation0": "MuiPaper-elevation0-6",
-                  "elevation1": "MuiPaper-elevation1-7",
-                  "elevation10": "MuiPaper-elevation10-16",
-                  "elevation11": "MuiPaper-elevation11-17",
-                  "elevation12": "MuiPaper-elevation12-18",
-                  "elevation13": "MuiPaper-elevation13-19",
-                  "elevation14": "MuiPaper-elevation14-20",
-                  "elevation15": "MuiPaper-elevation15-21",
-                  "elevation16": "MuiPaper-elevation16-22",
-                  "elevation17": "MuiPaper-elevation17-23",
-                  "elevation18": "MuiPaper-elevation18-24",
-                  "elevation19": "MuiPaper-elevation19-25",
-                  "elevation2": "MuiPaper-elevation2-8",
-                  "elevation20": "MuiPaper-elevation20-26",
-                  "elevation21": "MuiPaper-elevation21-27",
-                  "elevation22": "MuiPaper-elevation22-28",
-                  "elevation23": "MuiPaper-elevation23-29",
-                  "elevation24": "MuiPaper-elevation24-30",
-                  "elevation3": "MuiPaper-elevation3-9",
-                  "elevation4": "MuiPaper-elevation4-10",
-                  "elevation5": "MuiPaper-elevation5-11",
-                  "elevation6": "MuiPaper-elevation6-12",
-                  "elevation7": "MuiPaper-elevation7-13",
-                  "elevation8": "MuiPaper-elevation8-14",
-                  "elevation9": "MuiPaper-elevation9-15",
-                  "root": "MuiPaper-root-4",
-                  "rounded": "MuiPaper-rounded-5",
+                  "elevation0": "MuiPaper-elevation0",
+                  "elevation1": "MuiPaper-elevation1",
+                  "elevation10": "MuiPaper-elevation10",
+                  "elevation11": "MuiPaper-elevation11",
+                  "elevation12": "MuiPaper-elevation12",
+                  "elevation13": "MuiPaper-elevation13",
+                  "elevation14": "MuiPaper-elevation14",
+                  "elevation15": "MuiPaper-elevation15",
+                  "elevation16": "MuiPaper-elevation16",
+                  "elevation17": "MuiPaper-elevation17",
+                  "elevation18": "MuiPaper-elevation18",
+                  "elevation19": "MuiPaper-elevation19",
+                  "elevation2": "MuiPaper-elevation2",
+                  "elevation20": "MuiPaper-elevation20",
+                  "elevation21": "MuiPaper-elevation21",
+                  "elevation22": "MuiPaper-elevation22",
+                  "elevation23": "MuiPaper-elevation23",
+                  "elevation24": "MuiPaper-elevation24",
+                  "elevation3": "MuiPaper-elevation3",
+                  "elevation4": "MuiPaper-elevation4",
+                  "elevation5": "MuiPaper-elevation5",
+                  "elevation6": "MuiPaper-elevation6",
+                  "elevation7": "MuiPaper-elevation7",
+                  "elevation8": "MuiPaper-elevation8",
+                  "elevation9": "MuiPaper-elevation9",
+                  "outlined": "MuiPaper-outlined",
+                  "root": "MuiPaper-root",
+                  "rounded": "MuiPaper-rounded",
                 }
               }
-              component="div"
               elevation={0}
-              square={false}
               style={
                 Object {
                   "opacity": 0.5,
@@ -235,17 +232,17 @@ exports[`<Dots /> matches the snapshot 1`] = `
               }
             >
               <div
-                className="MuiPaper-root-4 MuiPaper-elevation0-6 MuiPaper-rounded-5 Dots-dot-3"
+                className="MuiPaper-root Dots-dot-3 MuiPaper-elevation0 MuiPaper-rounded"
                 style={
                   Object {
                     "opacity": 0.5,
                   }
                 }
               />
-            </Paper>
-          </WithStyles(Paper)>
+            </ForwardRef(Paper)>
+          </WithStyles(ForwardRef(Paper))>
         </div>
-        <WithStyles(Paper)
+        <WithStyles(ForwardRef(Paper))
           className="Dots-dot-3"
           elevation={0}
           style={
@@ -257,42 +254,41 @@ exports[`<Dots /> matches the snapshot 1`] = `
             }
           }
         >
-          <Paper
+          <ForwardRef(Paper)
             className="Dots-dot-3"
             classes={
               Object {
-                "elevation0": "MuiPaper-elevation0-6",
-                "elevation1": "MuiPaper-elevation1-7",
-                "elevation10": "MuiPaper-elevation10-16",
-                "elevation11": "MuiPaper-elevation11-17",
-                "elevation12": "MuiPaper-elevation12-18",
-                "elevation13": "MuiPaper-elevation13-19",
-                "elevation14": "MuiPaper-elevation14-20",
-                "elevation15": "MuiPaper-elevation15-21",
-                "elevation16": "MuiPaper-elevation16-22",
-                "elevation17": "MuiPaper-elevation17-23",
-                "elevation18": "MuiPaper-elevation18-24",
-                "elevation19": "MuiPaper-elevation19-25",
-                "elevation2": "MuiPaper-elevation2-8",
-                "elevation20": "MuiPaper-elevation20-26",
-                "elevation21": "MuiPaper-elevation21-27",
-                "elevation22": "MuiPaper-elevation22-28",
-                "elevation23": "MuiPaper-elevation23-29",
-                "elevation24": "MuiPaper-elevation24-30",
-                "elevation3": "MuiPaper-elevation3-9",
-                "elevation4": "MuiPaper-elevation4-10",
-                "elevation5": "MuiPaper-elevation5-11",
-                "elevation6": "MuiPaper-elevation6-12",
-                "elevation7": "MuiPaper-elevation7-13",
-                "elevation8": "MuiPaper-elevation8-14",
-                "elevation9": "MuiPaper-elevation9-15",
-                "root": "MuiPaper-root-4",
-                "rounded": "MuiPaper-rounded-5",
+                "elevation0": "MuiPaper-elevation0",
+                "elevation1": "MuiPaper-elevation1",
+                "elevation10": "MuiPaper-elevation10",
+                "elevation11": "MuiPaper-elevation11",
+                "elevation12": "MuiPaper-elevation12",
+                "elevation13": "MuiPaper-elevation13",
+                "elevation14": "MuiPaper-elevation14",
+                "elevation15": "MuiPaper-elevation15",
+                "elevation16": "MuiPaper-elevation16",
+                "elevation17": "MuiPaper-elevation17",
+                "elevation18": "MuiPaper-elevation18",
+                "elevation19": "MuiPaper-elevation19",
+                "elevation2": "MuiPaper-elevation2",
+                "elevation20": "MuiPaper-elevation20",
+                "elevation21": "MuiPaper-elevation21",
+                "elevation22": "MuiPaper-elevation22",
+                "elevation23": "MuiPaper-elevation23",
+                "elevation24": "MuiPaper-elevation24",
+                "elevation3": "MuiPaper-elevation3",
+                "elevation4": "MuiPaper-elevation4",
+                "elevation5": "MuiPaper-elevation5",
+                "elevation6": "MuiPaper-elevation6",
+                "elevation7": "MuiPaper-elevation7",
+                "elevation8": "MuiPaper-elevation8",
+                "elevation9": "MuiPaper-elevation9",
+                "outlined": "MuiPaper-outlined",
+                "root": "MuiPaper-root",
+                "rounded": "MuiPaper-rounded",
               }
             }
-            component="div"
             elevation={0}
-            square={false}
             style={
               Object {
                 "left": 4,
@@ -303,7 +299,7 @@ exports[`<Dots /> matches the snapshot 1`] = `
             }
           >
             <div
-              className="MuiPaper-root-4 MuiPaper-elevation0-6 MuiPaper-rounded-5 Dots-dot-3"
+              className="MuiPaper-root Dots-dot-3 MuiPaper-elevation0 MuiPaper-rounded"
               style={
                 Object {
                   "left": 4,
@@ -313,8 +309,8 @@ exports[`<Dots /> matches the snapshot 1`] = `
                 }
               }
             />
-          </Paper>
-        </WithStyles(Paper)>
+          </ForwardRef(Paper)>
+        </WithStyles(ForwardRef(Paper))>
       </div>
     </div>
   </Dots>
