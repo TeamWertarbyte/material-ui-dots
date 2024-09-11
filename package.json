@@ -1,19 +1,13 @@
 {
   "name": "material-ui-dots",
-  "version": "2.0.2",
   "description": "Just some animated dots for pagination.",
-  "main": "lib/Dots.js",
-  "files": [
-    "lib/**/*.js"
-  ],
-  "scripts": {
-    "build": "babel src -d lib --ignore **/*.spec.js",
-    "prepublish": "rm -rf lib && npm run build",
-    "lint": "standard",
-    "test": "standard && jest",
-    "test:coverage": "jest --coverage && cat ./coverage/lcov.info | coveralls",
-    "test:unit": "jest"
+  "version": "2.0.3",
+  "author": "Wertarbyte <kontakt@wertarbyte.com> (https://wertarbyte.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TeamWertarbyte/material-ui-dots/issues"
   },
+  "homepage": "https://github.com/TeamWertarbyte/material-ui-dots#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/TeamWertarbyte/material-ui-dots.git"
@@ -26,55 +20,53 @@
     "dots",
     "animation"
   ],
-  "author": "Wertarbyte <kontakt@wertarbyte.com> (https://wertarbyte.com)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/TeamWertarbyte/material-ui-dots/issues"
+  "private": false,
+  "publishConfig": {
+    "access": "public"
   },
-  "homepage": "https://github.com/TeamWertarbyte/material-ui-dots#readme",
-  "dependencies": {
-    "prop-types": "^15.7.2"
+  "type": "module",
+  "main": "dist/material-ui-dots.umd.js",
+  "module": "dist/material-ui-dots.js",
+  "types": "dist/material-ui-dots.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/material-ui-dots.js",
+      "require": "./dist/material-ui-dots.umd.js"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -p ./tsconfig-build.json && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "format": "prettier --write 'src/**/*.{ts,tsx}' 'lib/**/*.{ts,tsx}'",
+    "preview": "vite preview",
+    "prepublishOnly": "npm run build"
   },
   "devDependencies": {
-    "@babel/cli": "^7.11.6",
-    "@babel/core": "^7.11.6",
-    "@babel/plugin-proposal-class-properties": "^7.10.4",
-    "@babel/preset-env": "^7.11.5",
-    "@babel/preset-react": "^7.10.4",
-    "@material-ui/core": "^4.0.0",
-    "babel-eslint": "^10.1.0",
-    "coveralls": "^3.0.9",
-    "enzyme": "^3.11.0",
-    "enzyme-adapter-react-16": "^1.15.5",
-    "enzyme-to-json": "^3.6.0",
-    "jest": "^26.4.2",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-test-renderer": "^16.13.1",
-    "standard": "^14.3.4"
-  },
-  "standard": {
-    "parser": "babel-eslint"
-  },
-  "jest": {
-    "setupFiles": [
-      "./test/shim.js",
-      "./test/jestsetup.js"
-    ],
-    "snapshotSerializers": [
-      "enzyme-to-json/serializer"
-    ],
-    "coveragePathIgnorePatterns": [
-      "<rootDir>/test"
-    ],
-    "roots": [
-      "src",
-      "test"
-    ]
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@mui/material": "^6.1.0",
+    "@mui/styles": "^6.1.0",
+    "@types/node": "^20.14.6",
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "@typescript-eslint/eslint-plugin": "^7.2.0",
+    "@typescript-eslint/parser": "^7.2.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.6",
+    "prettier": "^3.3.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0",
+    "vite-plugin-dts": "^4.0.1"
   },
   "peerDependencies": {
-    "@material-ui/core": "^1.0.0 || ^3.0.0 || ^4.0.0",
-    "react": "^16.3.0",
-    "react-dom": "^16.3.0"
+    "@mui/material": "^ 5.0.0 || ^6.0.0"
   }
 }
